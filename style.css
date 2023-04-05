@@ -63,7 +63,7 @@ p{
 }
 
 .link:hover{
-    background-color:#ccc ;
+    background-color: #ccc;
 }
 
 .button{
@@ -204,4 +204,75 @@ p{
 
 .button1:hover{
     background-color:#ccc;
+}
+
+.contact_content{
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    padding: 0.01em 16px;
+}
+.contact_work{
+    border-bottom: 1px solid #ccc;
+    border-color: #f1f1f1!important;
+    font-size: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.form_section{
+    font-family: verdana,sans-serif;
+    padding: 11px 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.form_work{
+    font-family: verdana,sans-serif;
+    font-size: 15px;
+    padding: 11px 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+
+.hit{
+    padding-bottom: 32px;
+}
+.sending{
+    font-family: verdana,sans-serif;
+    font-size: 15px;
+    padding: 10px 16px;
+    color: white;
+    background-color: #000;    
+    cursor: pointer;
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.sending:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+.last_image{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.last_section{
+    color: white;
+    background-color: #000;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+a{
+    color: white;
 }
