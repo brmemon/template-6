@@ -140,7 +140,7 @@ p{
 
 .images{
     padding: 0px 8px;
-    width: 24.99%;
+    /* width: 24.99%; */
     margin-bottom: 16px;
 }
 
@@ -179,13 +179,10 @@ p{
 .chart_content{
     filter: grayscale(75%);
     padding: 0px 8px;
-    /* width: 24.99%; */
+    /* width: 100%; */
+    margin-bottom: 16px;
 }
 
-/* .chart{
-    padding: 0 8px;
-    width: 24.99999%;
-} */
 
 .opacity{
     opacity: 0.60;
@@ -208,9 +205,10 @@ p{
 
 .contact_content{
     padding-top: 32px!important;
-    padding-bottom: 32px!important;
+    /* padding-bottom: 32px!important; */
     padding: 0.01em 16px;
 }
+
 .contact_work{
     border-bottom: 1px solid #ccc;
     border-color: #f1f1f1!important;
@@ -221,21 +219,25 @@ p{
 
 .form_section{
     font-family: verdana,sans-serif;
-    padding: 11px 8px;
+    padding: 10px  8px;
     width: 100%;
     border: 1px solid #ccc;
     font-size: 15px;
+    display: block;
+    /* font: inherit; */
 }
 
 .form_work{
     font-family: verdana,sans-serif;
     font-size: 15px;
-    padding: 11px 8px;
+    padding:  8px;
     width: 100%;
     border: 1px solid #ccc;
     margin-top: 16px;
     margin-bottom: 16px;
     display: block;
+    font: inherit;
+
 }
 
 
@@ -275,4 +277,27 @@ p{
 
 a{
     color: white;
+}
+
+
+@media only screen and (max-width: 600px){
+    .first_two{
+        display: none;
+    }
+    .link2{
+        display: none;
+    }
+    .images_div{
+        display: block;
+    }
+    .chart_flex{
+        display: block;
+    }
+    .chart_content{
+        margin-bottom: 32px;
+    }
+    /* .contact_content{
+        padding-bottom: 0px!important;
+    } */
+    
 }
